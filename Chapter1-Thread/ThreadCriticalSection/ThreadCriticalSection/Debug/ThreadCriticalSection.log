@@ -1,0 +1,8 @@
+﻿  ThreadCriticalSection.cpp
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\ThreadCriticalSection\ThreadCriticalSection\ThreadCriticalSection.cpp(32,11): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 3 的類型為 'volatile LONGLONG'
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\ThreadCriticalSection\ThreadCriticalSection\ThreadCriticalSection.cpp(32,11): message : 請考慮在格式字串中使用 '%lld'
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\ThreadCriticalSection\ThreadCriticalSection\ThreadCriticalSection.cpp(32,11): message : 請考慮在格式字串中使用 '%I64d'
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\ThreadCriticalSection\ThreadCriticalSection\ThreadCriticalSection.cpp(57,11): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 3 的類型為 'volatile LONGLONG'
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\ThreadCriticalSection\ThreadCriticalSection\ThreadCriticalSection.cpp(57,11): message : 請考慮在格式字串中使用 '%lld'
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\ThreadCriticalSection\ThreadCriticalSection\ThreadCriticalSection.cpp(57,11): message : 請考慮在格式字串中使用 '%I64d'
+  ThreadCriticalSection.vcxproj -> E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\ThreadCriticalSection\Debug\ThreadCriticalSection.exe
