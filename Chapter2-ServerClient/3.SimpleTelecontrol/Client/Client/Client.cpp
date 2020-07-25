@@ -44,7 +44,6 @@ int main(void)
 		NULL);
 
 	// 設定 StartupInfo
-	
 	StartupInfo.cb = sizeof(STARTUPINFO);
 	StartupInfo.wShowWindow = SW_HIDE;
 	StartupInfo.dwFlags = STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW;
