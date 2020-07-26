@@ -1,0 +1,3 @@
+﻿  WindowsDesktop.cpp
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\Chapter3-WindowsUI\2.BookSample\MouseWndProc\CreateWindow\WindowsDesktop.cpp(135,7): warning C4552: '-': 未使用運算式結果
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\Chapter3-WindowsUI\2.BookSample\MouseWndProc\CreateWindow\WindowsDesktop.cpp(145,2): error C2059: 語法錯誤: 'case'

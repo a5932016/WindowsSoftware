@@ -114,21 +114,26 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
 	PAINTSTRUCT ps;
 	HDC hdc;
-	TCHAR greeting[] = _T("Hello, Windows desktop!");
+	
+	static wchar_t str[1024];
+	static INT len = 0;
 
 	switch (message)
 	{
 	case WM_PAINT:
 		hdc = BeginPaint(hWnd, &ps);
-
-		// Here your application is laid out.
-		// For this introduction, we just print out "Hello, Windows desktop!"
-		// in the top left corner.
-		TextOut(hdc, 5, 5, greeting, _tcslen(greeting));
-		// End application-specific layout section.
-
+		SetTextColor(hdc, RGB(0, 0, 255));
+		TextOut(hdc, 0, 0, str, _tcslen(str));
 		EndPaint(hWnd, &ps);
-		break;
+		return 0;
+	case WM_CHAR:
+		if (len < 1024)
+		{
+			str[len++] = wParam;
+			str[len] = 0;
+		}
+		InvalidateRect(hWnd, NULL, 0);
+		return 0;
 	case WM_DESTROY:
 		PostQuitMessage(0);
 		break;
