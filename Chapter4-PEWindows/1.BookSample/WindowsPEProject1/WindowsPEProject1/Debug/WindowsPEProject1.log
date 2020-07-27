@@ -1,0 +1,6 @@
+﻿  WindowsPEProject1.cpp
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\Chapter4\1.BookSample\WindowsPEProject1\WindowsPEProject1\WindowsPEProject1.cpp(38,63): warning C4474: 'printf': 傳遞給格式字串的引數太多
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\Chapter4\1.BookSample\WindowsPEProject1\WindowsPEProject1\WindowsPEProject1.cpp(38,63): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 2 個
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\Chapter4\1.BookSample\WindowsPEProject1\WindowsPEProject1\WindowsPEProject1.cpp(46,64): warning C4474: 'printf': 傳遞給格式字串的引數太多
+E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\Chapter4\1.BookSample\WindowsPEProject1\WindowsPEProject1\WindowsPEProject1.cpp(46,64): message : 預留位置及其參數需要 1 個 variadic 引數，但卻提供了 2 個
+  WindowsPEProject1.vcxproj -> E:\source\3.C\windows 駭客程式設計 駭客程式設計及惡意程式研發 基礎修行篇\Chapter4\1.BookSample\WindowsPEProject1\Debug\WindowsPEProject1.exe
